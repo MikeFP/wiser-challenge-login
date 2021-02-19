@@ -25,6 +25,12 @@ To run this project in a production server, build and run the site with the foll
 
 Note: If you are already running a webserver on port 80 (e.g. Macs usually have the Apache webserver running on port 80) you can still start the example in production mode by passing a different port as an Environment Variable when starting (e.g. `PORT=3000 npm start`).
 
+## Running tests
+
+To run the tests from the command-line, use `npm run cypress:run`. A video recording of the tests will be recorded and stored in the path `cypress/videos`.
+
+To run and inspect the tests visually in your browser of choice, use `npm run cypress:open` and click on a test on the list to run it.
+
 ## Feature notes
 
 For mock purposes, each login attempt alternates between success and error responses.
